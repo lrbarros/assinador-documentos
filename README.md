@@ -86,10 +86,6 @@ json
 
 ## 🗂 Modelo de Documento
 
-java
-public class Documento {
-    private String conteudo;
-    private String assinatura;
 
     public Documento(String conteudo, String assinatura) {
         this.conteudo = conteudo;
@@ -162,19 +158,18 @@ bash
 ---
 
 ## 📌 Estrutura de Pastas
+``` 
+src/
+├─ main/
+   ├─ java/
+   │  └─ br/com/lrbarros/assinador/
+   │     ├─ controller/AssinaturaDocumetosController.java
+   │     ├─ service/AssinadorService.java
+   │     ├─ model/Documento.java
+   │     └─ util/KeyStoreUtils.java
+   └─ resources/
 
-
-src/<br>
-├─ main/<br>
-│  ├─ java/<br>
-│  │  └─ br/com/lrbarros/assinador/<br>
-│  │     ├─ controller/AssinaturaDocumetosController.java<br>
-│  │     ├─ service/AssinadorService.java<br>
-│  │     ├─ model/Documento.java<br>
-│  │     └─ util/KeyStoreUtils.java<br>
-│  └─ resources/<br>
-│     └─ certs/certificado.pfx
-
+```
 
 ---
 
