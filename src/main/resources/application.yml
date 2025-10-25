@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: assinador
+
+crypto:
+  keystore-path: classpath:certs/certificado.pfx
+  keystore-password: 1234
+  key-alias: teste
+  key-password: 1234
